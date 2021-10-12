@@ -21,7 +21,7 @@ For Rw In 1..1
      Loop
     For Col In 2..2
     Loop
-    Dbms_Output.Put('        ||    ||');
+    Dbms_Output.Put('        ||  ||');
     End Loop;
   Dbms_Output.Put_Line(' ');
   End Loop;   
@@ -29,7 +29,7 @@ For Rw In 1..1
   Loop
     For Col In 3..3
     Loop
-    Dbms_Output.Put('      ||        ||');
+    Dbms_Output.Put('      ||      ||');
     End Loop;
   Dbms_Output.Put_Line(' ');
   End Loop;
