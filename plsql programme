@@ -1,0 +1,76 @@
+
+Set Serveroutput On 
+Begin
+  For Rw In 1..1
+  Loop
+    For Col In 1..1
+    Loop
+    Dbms_Output.Put(' | ');
+    End Loop;
+  dbms_Output.Put_line('');
+  End Loop;
+      For Rw In 2..2
+      Loop
+        For Col In 1..2
+        Loop
+        Dbms_Output.Put(' | ');
+        End Loop;
+      dbms_Output.Put_line('');
+      End Loop;
+          For Rw In 3..3
+          Loop
+            For Col In 1..3
+            Loop
+            Dbms_Output.Put(' | ');
+            End Loop;
+          Dbms_Output.Put_Line('');
+          End Loop;
+             For Rw In 4..4
+            Loop
+              For Col In 1..4
+              Loop
+              Dbms_Output.Put(' | ');
+              End Loop;
+            Dbms_Output.Put_Line('');
+            End Loop;
+                  For Rw In 5..5
+                  Loop
+                    For Col In 1..6
+                    Loop
+                    Dbms_Output.Put(' - ');
+                    End Loop;
+                  Dbms_Output.Put_Line('');
+                  End Loop;
+                     For Rw In 6..6
+                     Loop
+                       For Col In 1..4
+                       Loop
+                       Dbms_Output.Put(' | ');
+                       End Loop;
+                     Dbms_Output.Put_Line('');
+                     End Loop;
+                      For Rw In 7..7
+                      Loop
+                        For Col In 1..3
+                        Loop
+                        Dbms_Output.Put(' | ');
+                        End Loop;
+                     Dbms_Output.Put_Line('');
+                     End Loop;
+                        For Rw In 8..8
+                        Loop
+                           For Col In 1..2
+                           Loop
+                           Dbms_Output.Put(' | ');
+                           End Loop;
+                        Dbms_Output.Put_Line('');
+                        End Loop;
+                           For Rw In 9..9
+                           Loop
+                             For Col In 1..1
+                             Loop
+                             Dbms_Output.Put(' | ');
+                             End Loop;
+                           Dbms_Output.Put_Line('');
+                           End Loop;
+end;
